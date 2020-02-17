@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-color: pink;
+  padding: 1rem;
+}
+
+main {
+  background-color: lavender;
+  padding: 1rem;
+}
+
+footer {
+  background-color: lightgreen;
+  padding: 1rem;
+}
+
+article {
+  background: white;
+  padding: 1rem;
+  margin: .5rem;
+}
