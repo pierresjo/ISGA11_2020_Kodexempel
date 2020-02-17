@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: pink;
+  padding: 1rem;
+}
+
+main {
+  background-color: lavender;
+  padding: 1rem;
+  float: left;
+  width: 66.666667%;
+}
+
+aside {
+  background-color: paleturquoise;
+  padding: 1rem;
+  float: right;
+  width: 33.333333%;
+}
+
+footer {
+  background-color: lightgreen;
+  padding: 1rem;
+  clear: both;
+}
+/* Gäller bara om skärmen är mindre än 600px i bredd */
+@media (max-width: 599px) {
+  main {
+    float: none;
+    width: auto;
+  }
+  
+  aside {
+    float: none;
+    width: auto;
+  }
+}

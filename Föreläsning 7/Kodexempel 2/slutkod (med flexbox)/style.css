@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-color: pink;
+  padding: 1rem;
+}
+
+main {
+  background-color: lavender;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: lightgreen;
+  padding: 1rem;
+}
+
+article {
+  background: white;
+  padding: 1rem;
+  margin: .5rem;
+  width: calc(33.333333% - 1rem);
+}
+
+@media (max-width: 899px) {
+  article {
+    width: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 649px) {
+  article {
+    width: 100%;
+  }
+}
